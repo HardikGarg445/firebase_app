@@ -1,6 +1,6 @@
 import type { ClassData, EventData } from '@/types';
 
-/* ───────── CLASSES ───────── */
+/* ──────────── CLASSES ──────────── */
 export const classes: ClassData[] = [
   {
     id: 1,
@@ -16,14 +16,14 @@ export const classes: ClassData[] = [
   }
 ];
 
-/* ───────── EVENTS ───────── */
+/* ──────────── EVENTS ──────────── */
 export const events: EventData[] = [
   {
     id: 1,
     title: 'AI Workshop',
-    description: 'Hands‑on with Gemini API',
+    description: 'Hands‑on with Gemini API',
     time: '2 :00 PM – 3 :30 PM',
-    isHighlighted: true          // ← special styling
+    isHighlighted: true         // special styling
   },
   {
     id: 2,
