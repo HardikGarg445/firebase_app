@@ -1,4 +1,11 @@
 // Central place for re‑usable types
+export type EventData = {
+  id: number;
+  title: string;
+  description: string;
+  time: string;
+  isHighlighted?: boolean; // <-- Add this line
+};
 
 export type ClassData = {
   id: number;
