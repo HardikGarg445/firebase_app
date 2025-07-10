@@ -1,4 +1,4 @@
-// src/types/index.ts
+// Central place for re‑usable types
 
 export type ClassData = {
   id: number;
@@ -11,6 +11,7 @@ export type EventData = {
   id: number;
   title: string;
   description: string;
-  date: string;
   time: string;
+  /** Renders with accent color & megaphone icon when true */
+  isHighlighted?: boolean;
 };
