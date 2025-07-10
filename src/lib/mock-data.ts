@@ -13,6 +13,18 @@ export const classes: ClassData[] = [
     subject: 'Linear Algebra',
     time: '11 :00 AM – 12 :00 PM',
     attendance: 88
+  },
+   {
+    id: 3,
+    subject: 'History ',
+    time: '12 :00 PM – 1 :30 PM',
+    attendance: 45
+  },
+   {
+    id: 4,
+    subject: 'Evaluation',
+    time: '3 :00 PM – 4 :30 PM',
+    attendance: 59
   }
 ];
 
