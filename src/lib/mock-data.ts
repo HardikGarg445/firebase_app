@@ -25,7 +25,7 @@ export const classes: ClassData[] = [
     subject: 'Evaluation',
     time: '3 :00 PM – 4 :30 PM',
     attendance: 59
-  }
+  },
 ];
 
 /* ──────────── EVENTS ──────────── */
@@ -42,5 +42,11 @@ export const events: EventData[] = [
     title: 'Career Fair Briefing',
     description: 'Everything you need to know before meeting recruiters',
     time: '4 :00 PM – 4 :30 PM'
+  },
+   {
+    id: 3,
+    title: 'International Trip Programs ',
+    description: 'Foreign Programs',
+    time: '5 :00 PM – 5 :30 PM'
   }
 ];
